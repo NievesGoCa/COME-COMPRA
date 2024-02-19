@@ -1,6 +1,6 @@
 from come_compra import app
-from flask import render_template
+from flask import render_template, request
 
 @app.route("/")
-def index():
+def index(): 
     return render_template("index.html")
